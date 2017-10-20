@@ -1,5 +1,5 @@
 header {
-  background-color: #f1612a !important;
+  background-color: #f05d29 !important;
   width: auto; }
 
 .navbar {
@@ -8,6 +8,22 @@ header {
 .csf-section {
   min-height: 80vh;
   padding: 2em; }
+
+.quienes-somos {
+  margin-top: 65px;
+  background-color: #FFC36E; }
+
+h1, h3 {
+  font-family: 'Droid Serif', serif; }
+
+.csf-texto {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px; }
+
+.sectores {
+  background-color: #EE9211; }
+  .sectores .sector-container {
+    text-align: center; }
 
 .csf-sector {
   background-size: cover !important;
@@ -19,6 +35,9 @@ header {
   position: relative; }
   .csf-sector:hover {
     opacity: 1; }
+  @media screen and (max-width: 576px) {
+    .csf-sector {
+      width: 100%; } }
   .csf-sector h3 {
     opacity: 1 !important;
     font-size: 2rem;
@@ -28,67 +47,42 @@ header {
     letter-spacing: 3px;
     font-weight: 800; }
 
-.csf-hotel {
-  background: url(imagenes/hotel-beach.jpg);
-  width: 100%;
-  height: 100%; }
-  .csf-hotel * {
-    z-index: 10; }
-
 .transparencia {
   background: #E51;
   width: 100%;
   height: 100%;
-  z-index: 5;
+  z-index: -1;
   position: absolute;
   top: 0;
   left: 0;
-  opacity: .5; }
+  opacity: .15; }
 
-.csf-salud {
-  background: url(imagenes/medical-emergency-room.jpg); }
+.csf-hotel {
+  background: url(imagenes/hotel-beach.jpg); }
 
 .csf-edu {
   background: url(imagenes/university-library.jpg); }
 
+.csf-salud {
+  background: url(imagenes/medical-emergency-room.jpg); }
+
 .csf-gas {
   background: url(imagenes/gas-pumping.jpg); }
 
-footer {
-  padding: 2em 2em 1em;
-  background: black;
-  color: white;
-  font-size: 14px; }
-
-.quienes-somos {
-  margin-top: 65px; }
-
-.sectores {
-  background-color: #f9a53e; }
-  .sectores .sector-container {
-    text-align: center; }
-
 .servicios {
-  background-color: #FFC36E; }
-
-.contacto {
-  background-color: #FF9B6E; }
-
-text-area {
-  width: 30vw; }
+  background-color: #f9a53e; }
 
 .csf-h1 {
   padding-top: .5em; }
 
-h1, h3 {
-  font-family: 'Droid Serif', serif; }
-
-.csf-texto {
-  font-family: 'Raleway', sans-serif;
-  font-size: 22px; }
+.contacto {
+  background-color: #FF9B6E; }
 
 .csf-forma {
   font-size: 18px; }
+
+text-area {
+  width: 30vw; }
 
 button {
   border-radius: 15px;
@@ -96,8 +90,17 @@ button {
   border-shadow: none;
   font-size: 15px; }
 
+footer {
+  padding: 2em 2em 1em;
+  background: black;
+  color: white;
+  font-size: 13px; }
+
 .csf-footer-texto {
   margin-bottom: 5px; }
+
+.principal {
+  font-size: 16px; }
 
 @keyframes cambiar-opacity {
   0% {
