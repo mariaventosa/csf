@@ -1,0 +1,77 @@
+include _header.pug
+
+<!-- Seccion 1 - Quienes Somos -->
+		section(class="row csf-section quienes-somos")
+			h1(class="csf-h1") ¿Quiénes somos?
+			div(class="csf-texto") En Capital Solutions Fast nos enfocamos en satisfacer las necesidades de Flujo de Efectivo, Liquidez y Equipamiento de las empresas, con soluciones financieras innovadoras, ágiles, confiables y efectivas que las impulsen en sus estrategias de negocios, alcanzando así el crecimiento requerido.
+
+<!-- Seccion 2 - Sectores -->
+		section(class="row csf-section sectores")
+			h1(class="csf-h1 col-12") Sectores
+			div(class="col-12 sector-container")
+				div(class="csf-sector csf-hotel")
+					div(class="transparencia")
+					h3 Hotelero
+				
+				div(class="csf-edu csf-sector")
+					div(class="transparencia")
+					h3 Educación
+
+				div(class="csf-salud csf-sector")
+					div(class="transparencia")
+					h3 Salud
+
+				div(class="csf-gas csf-sector")
+					div(class="transparencia")
+					h3 Gasolinero
+
+
+<!-- Seccion 3 - Servicios y Financiamiento -->
+		section(class="row csf-section servicios")
+			div(class="col-6")
+				h1(class=" csf-h1") Servicios
+				ul(class="csf-texto")
+					li Gestión de financiamientos.
+					li Asesoría contable y fiscal.
+					li Elaboración de lanes de negocios de proyectos de inversión.
+					li Diagnóstico financiero.
+					li Evaluación y planeación de las fuentes de financiamiento.
+					li Negociación de adeudos bancarios.
+			div(class="col-6")
+				h1(class="csf-h1") Financiamiento
+				ul(class="csf-texto")
+					li Arrendamiento
+					li Factoraje
+					li Crédito
+
+<!-- Seccion 4 - Contacto  -->
+		section(class="row csf-section contacto")
+			<!-- pasos -->
+			div(class="col-6")
+				h1(class="row csf-h1") Inicia con Nosotros
+				ol(class="csf-texto")
+					li Contacta a uno de nuestros expertos
+					li Coméntanos tus necesidades
+					li Recibirás de inmediato asesoría profesional y una propuesta
+				p(class="csf-texto") Nuestro compromiso es brindarte el mejor servicio y atención en cada parte del proceso hasta que finalmente obtengas la solución financiera que tu empresa necesita. Cuenta con nosotros.
+			<!-- forma -->
+			div(class="col-1")
+			div(class="col-5")
+				h3 Contáctanos
+				form(class="csf-texto csf-forma")
+					div(class="form-group")
+						label Nombre
+						input(type="text" class="form-control" id="nombre")
+					div(class="form-group")
+						label Email
+						input(type="email" class="form-control" id="email")
+					div(class="form-group")
+						label Asunto
+						input(type="text" class="form-control" id="asunto")
+					div(class="form-group")
+						label Mensaje
+						textarea(class="form-control" id="mensaje" rows="3")
+					button Enviar
+
+<!-- FOOTER -->
+include _footer.pug 
