@@ -1,0 +1,155 @@
+header {
+  background-color: #f05d29 !important;
+  width: auto; }
+
+.navbar {
+  padding: 0; }
+
+.container-fluid {
+  padding-right: 0;
+  width: 100vw; }
+
+.csf-section {
+  min-height: 80vh;
+  padding: 2em; }
+
+.quienes-somos {
+  margin-top: 65px;
+  background-color: #FFC36E; }
+
+.csf-qs-mv {
+  padding-top: 40px;
+  padding-left: 10px; }
+
+.csf-img-qs {
+  width: 350px;
+  height: 250px;
+  text-align: center;
+  padding-left: 20px; }
+
+h1, h3, h4 {
+  font-family: 'Droid Serif', serif; }
+
+.csf-texto {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  text-align: justify; }
+
+.csf-texto-sm {
+  font-family: 'Raleway', sans-serif;
+  text-align: justify;
+  font-size: 16px; }
+
+.sec {
+  font-size: 18px; }
+
+.seccion2 {
+  margin-top: 70px; }
+
+.seccion2-titulo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 60px; }
+
+.sectores {
+  background-color: #EE9211; }
+  .sectores .sector-container {
+    text-align: center; }
+    .sectores .sector-container a {
+      color: black; }
+
+.h3-sector {
+  margin-top: 3rem; }
+
+.csf-sector {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  height: 60vh;
+  display: inline-block;
+  width: 24%;
+  opacity: 0.85;
+  position: relative; }
+  .csf-sector:hover {
+    opacity: 1; }
+  @media screen and (max-width: 576px) {
+    .csf-sector {
+      width: 100%; } }
+  .csf-sector h3 {
+    opacity: 1 !important;
+    font-size: 2rem;
+    padding-top: 50%;
+    text-shadow: -0.5px -0.5px 0 #FFF, 0.5px -0.5px 0 #FFF, -0.5px 0.5px 0 #FFF, 0.5px 0.5px 0 #FFF;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 800; }
+
+.transparencia {
+  background: #FF9B6E;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .15; }
+
+.csf-hotel {
+  background: url(imagenes/hotel-beach.jpg); }
+
+.csf-edu {
+  background: url(imagenes/university-library.jpg); }
+
+.csf-salud {
+  background: url(imagenes/medical-emergency-room.jpg); }
+
+.csf-gas {
+  background: url(imagenes/gas-pumping.jpg); }
+
+.csf-img-sector {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  width: 400px;
+  height: 450px;
+  display: inline-block;
+  position: relative; }
+
+#hotelero {
+  padding-top: 10px; }
+
+.csf-row-sector {
+  margin-top: 10px;
+  padding-top: 100px; }
+
+.servicios {
+  background-color: #f9a53e;
+  vertical-align: middle; }
+
+.csf-h1 {
+  padding-top: .5em; }
+
+.contacto {
+  background-color: #FF9B6E; }
+
+.csf-forma {
+  font-size: 18px; }
+
+text-area {
+  width: 30vw; }
+
+button {
+  border-radius: 15px;
+  padding: 8px 20px;
+  border-shadow: none;
+  font-size: 15px; }
+
+footer {
+  padding: 2em 2em 1em;
+  background: black;
+  color: white;
+  font-size: 13px; }
+
+.csf-footer-texto {
+  margin-bottom: 5px; }
+
+.principal {
+  font-size: 16px; }

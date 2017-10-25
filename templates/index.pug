@@ -2,29 +2,41 @@ include _header.pug
 
 <!-- Seccion 1 - Quienes Somos -->
 		section(class="row csf-section quienes-somos")
-			h1(class="csf-h1") ¿Quiénes somos?
-			div(class="csf-texto") En Capital Solutions Fast nos enfocamos en satisfacer las necesidades de Flujo de Efectivo, Liquidez y Equipamiento de las empresas, con soluciones financieras innovadoras, ágiles, confiables y efectivas que las impulsen en sus estrategias de negocios, alcanzando así el crecimiento requerido.
+			h1(class="csf-h1 col-12") ¿Quiénes somos?
+			div(class="csf-texto col-12") En Capital Solutions Fast nos enfocamos en satisfacer las necesidades de Flujo de Efectivo, Liquidez y Equipamiento de las empresas, con soluciones financieras innovadoras, ágiles, confiables y efectivas que las impulsen en sus estrategias de negocios, alcanzando así el crecimiento requerido.
+			div(class="row csf-qs-mv")
+				div(class="col-4")
+					h4 Misión
+					p(class="csf-texto-sm") Otorgar la prestación de servicios profesionales en la gestión de financiamientos, que excedan las expectativas de nuestros clientes, mediante profesionalescon conocimientos actualizados, que apoyen a las empresas con soluciones financieras en un ambiente de ética, respeto, honestidad y armonía.
+				div(class="col-4")
+					h4 Visión
+					p(class="csf-texto-sm") Ofrecer servicios profesionales a nuestros clientes en forma integral, de tal forma que realicen negocios redituables y mantengan competitividad y producción para nuestro país, además de que generen fuentes de trabajo con un alto valor social.
+				div(class="col-4")
+					img(class="csf-img-qs" src="imagenes/workshop2.jpg")
+
+
 
 <!-- Seccion 2 - Sectores -->
 		section(class="row csf-section sectores")
 			h1(class="csf-h1 col-12") Sectores
 			div(class="col-12 sector-container")
-				div(class="csf-sector csf-hotel")
-					div(class="transparencia")
-					h3 Hotelero
-				
-				div(class="csf-edu csf-sector")
-					div(class="transparencia")
-					h3 Educación
+				a(href="sectores.html#hotelero-hot-fix")
+					div(class="csf-sector csf-hotel")
+						div(class="transparencia")
+						h3 Hotelero
+				a(href="sectores.html#educacion")
+					div(class="csf-edu csf-sector")
+						div(class="transparencia")
+						h3 Educación
 
-				div(class="csf-salud csf-sector")
-					div(class="transparencia")
-					h3 Salud
-
-				div(class="csf-gas csf-sector")
-					div(class="transparencia")
-					h3 Gasolinero
-
+				a(href="sectores.html#salud")
+					div(class="csf-salud csf-sector")
+						div(class="transparencia")
+						h3 Salud
+				a(href="sectores.html#gasolina")
+					div(class="csf-gas csf-sector")
+						div(class="transparencia")
+						h3 Gasolinero
 
 <!-- Seccion 3 - Servicios y Financiamiento -->
 		section(class="row csf-section servicios")

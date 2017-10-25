@@ -2,43 +2,48 @@ include _header.pug
 
 div(class="container-fluid")
 	section(class="row csf-section sectores seccion2")
-		div(class="col-12 seccion2-titulo")
+		div(class="col-12 seccion2-titulo" id="hotelero-hot-fix")
 			h1 Sectores
-		div(class="row")
-			div(class="col-4")
-				img(class="csf-img-sector" src="imagenes/hotel-beach.jpg")
-			div(class="col-8 seccion2-h2")
-				h3 Hotelero
+
+		div(class="row csf-row-sector" id="hotelero")
+			div(class="col-7")
+				h1(class="h3-sector") Hotelero
 				ul(class="csf-texto")
 					li Producto único y flexible que permite al Sector Hotelero solventar todas sus necesidades de Liquidez, Equipamiento y Crecimiento. 
 					li Equipamiento, vehículos, mobiliario, maquinaria, capital de trabajo, remodelación, ampliación, construcción de segundas instalaciones, entre otras.
 					li Arrendamiento Puro, Financiero, Leaseback ó Crédito, de acuerdo a las necesidades del cliente y el destino del crédito.
-				
-		div(class="row")
-			div(class="col-4")
-				img(class="csf-img-sector" src="imagenes/university-library.jpg")
-			div(class="col-8 seccion2-h2")
-				h3 Educación
+			div(class="col-5") 
+				img(class="csf-img-sector" src="imagenes/hotel-beach.jpg")
+		hr
+
+
+		div(class="row csf-row-sector" id="educacion")
+			div(class="col-7")
+				h1(class="h3-sector") Educación
 				ul(class="csf-texto")
 					li En un sector con gran crecimiento se requieren soluciones dinámicas de financiamiento.
 					li Equipamiento, vehículos, mobiliario, equipo de cómputo, impresión y video, capital de trabajo, remodelación, ampliación, construcción de segundas instalaciones y más.
-				
-		div(class="row")
-			div(class="col-4")
-				img(class="csf-img-sector" src="imagenes/medical-emergency-room.jpg")
-			div(class="col-8 seccion2-h2")
-				h3 Salud
+			div(class="col-5")
+				img(class="csf-img-sector" src="imagenes/university-library.jpg")
+		hr
+
+		div(class="row csf-row-sector" id="salud")
+			div(class="col-7")
+				h1(class="h3-sector") Salud
 				ul(class="csf-texto")
 					li Diseñado para el Sector Salud ayuda a aliviar las necesidades de Liquidez, Equipamiento y Crecimiento.
 					li Equipamiento, mobiliario, instrumental, equipo de diagnóstico y de tratamiento, capital de trabajo, remodelación, ampliación, construcción.
-				
-		div(class="row")
-			div(class="col-4")
-				img(class="csf-img-sector" src="imagenes/gas-pumping.jpg")
-			div(class="col-8 seccion2-h2")
-				h3 Gasolina
+			div(class="col-5")
+				img(class="csf-img-sector" src="imagenes/medical-emergency-room.jpg")
+		hr
+		div(class="row csf-row-sector" id="gasolina")
+			div(class="col-7 seccion2-h2")
+				h1(class="h3-sector") Gasolina
 				ul(class="csf-texto")
 					li Producto diseñado especialmente para la modernización, adquisición de equipo, vehículos, capital de trabajo y construcción de segunda ó posterior estación en este ramo.
+			div(class="col-5")
+				img(class="csf-img-sector" src="imagenes/gas-pumping.jpg")
+		hr
 
 
 include _footer.pug
