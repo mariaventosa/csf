@@ -71,3 +71,25 @@ gulp.task('javascript', function(){
 	.pipe(bs.stream());
 });
 
+gulp.task('package', function(){
+	gulp.src([
+		"*.html",
+		"*.css"])
+	.pipe(gulp.dest("./package"));
+	gulp.src([
+		"./csf/**/*"])
+	.pipe(gulp.dest("./package/csf"));
+	gulp.src([
+		"./imagenes/**/*"])
+	.pipe(gulp.dest("./package/imagenes"));
+});
+
+
+
+
+
+
+
+
+
+
