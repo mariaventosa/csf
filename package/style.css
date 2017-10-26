@@ -1,9 +1,13 @@
-header {
-  background-color: #f05d29 !important;
-  width: auto; }
-
 .navbar {
-  padding: 0; }
+  padding: 0;
+  background-color: #f05d29 !important; }
+  .navbar a {
+    color: white;
+    font-family: 'Raleway', sans-serif; }
+
+.csf-logo {
+  margin-right: 30px;
+  border-right: 1px white; }
 
 .container-fluid {
   padding-right: 0;
@@ -116,9 +120,15 @@ h1, h3, h4 {
 #hotelero {
   padding-top: 10px; }
 
-.csf-row-sector {
+.csf-row-sector, .csf-row-finan {
   margin-top: 10px;
   padding-top: 100px; }
+
+.csf-row-finan2 {
+  margin-top: 30px; }
+
+.csf-texto-finan {
+  margin-left: -25px; }
 
 .servicios {
   background-color: #f9a53e;

@@ -15,6 +15,17 @@ html
 	body
 		div
 			<!-- Barra de Menu con Logo -->
-			header(class="row navbar fixed-top")
+			nav(class="row navbar navbar-expand-md fixed-top")
 				a(href="index.html")
-					img(class="img-responsive" src="csf/logo.png")
+					img(class="img-responsive csf-logo" src="csf/logo.png")
+				div(class="collapse navbar-collapse" id="navbarCollapse")
+					ul(class="navbar-nav mr-auto")
+						li(class="nav-item active")
+							a(class="nav-link" href="http://capitalsolutionsfast.com/nuevo/financiamiento.html") Financiamiento
+								span(class="sr-only" current)
+						li(class="nav-item active")
+							a(class="nav-link" href="home-categoria2.html") Servicios
+								span(class="sr-only" current)
+						li(class="nav-item active")
+							a(class="nav-link" href="http://capitalsolutionsfast.com/nuevo/quienes-somos.html") Nosotros
+								span(class="sr-only" current)
