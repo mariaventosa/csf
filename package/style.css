@@ -5,6 +5,11 @@
     color: white;
     font-family: 'Raleway', sans-serif; }
 
+.dropdown-menu {
+  background-color: #f05d29; }
+  .dropdown-menu li {
+    color: white; }
+
 .csf-logo {
   margin-right: 30px;
   border-right: 1px white; }
@@ -51,7 +56,6 @@ h1, h3, h4 {
   margin-top: 70px; }
 
 .seccion2-titulo {
-  margin-top: 10px;
   margin-bottom: 10px;
   height: 60px; }
 
@@ -117,22 +121,57 @@ h1, h3, h4 {
   display: inline-block;
   position: relative; }
 
+.csf-img-finan {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  position: relative;
+  margin-left: 25px;
+  margin-top: 20px; }
+
+.right {
+  width: 320px;
+  height: 220px;
+  margin-top: 60px; }
+
 #hotelero {
   padding-top: 10px; }
 
 .csf-row-sector, .csf-row-finan {
-  margin-top: 10px;
-  padding-top: 100px; }
+  padding-top: 65px; }
 
 .csf-row-finan2 {
   margin-top: 30px; }
 
 .csf-texto-finan {
-  margin-left: -25px; }
+  margin-left: -25px;
+  margin-top: 15px; }
+
+.csf-ofrecemos {
+  background-color: #F77C44;
+  padding-right: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px; }
 
 .servicios {
   background-color: #f9a53e;
   vertical-align: middle; }
+
+#arrendamiento-financiero, #fctoraje-financiero {
+  background-color: #FFC36E;
+  padding: 20px; }
+
+#arrendamiento-puro {
+  background-color: #F77C44;
+  padding: 20px; }
+
+#credito-info {
+  background-color: #f05d29;
+  padding: 20px;
+  margin-bottom: 10px; }
 
 .csf-h1 {
   padding-top: .5em; }

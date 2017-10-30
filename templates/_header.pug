@@ -20,12 +20,20 @@ html
 					img(class="img-responsive csf-logo" src="csf/logo.png")
 				div(class="collapse navbar-collapse" id="navbarCollapse")
 					ul(class="navbar-nav mr-auto")
-						li(class="nav-item active")
-							a(class="nav-link" href="http://capitalsolutionsfast.com/nuevo/financiamiento.html") Financiamiento
+						li(class="nav-item active dropdown")
+							a(class="nav-link dropdown-toggle" href="#" id="financiamiento-dd" role="button" data-toggle="dropdown") Financiamiento
 								span(class="sr-only" current)
+							ul.dropdown-menu
+								li.dropdown-item 
+									a(href="arrendamiento.html") Arrendamiento
+								li.dropdown-item 
+									a(href="factoraje.html") Factoraje
+								li.dropdown-item 
+									a(href="credito.html") Crédito
+
 						li(class="nav-item active")
 							a(class="nav-link" href="home-categoria2.html") Servicios
 								span(class="sr-only" current)
 						li(class="nav-item active")
-							a(class="nav-link" href="http://capitalsolutionsfast.com/nuevo/quienes-somos.html") Nosotros
+							a(class="nav-link" href="quienes-somos.html") Nosotros
 								span(class="sr-only" current)
