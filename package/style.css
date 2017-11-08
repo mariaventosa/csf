@@ -8,7 +8,15 @@
 
 .active {
   letter-spacing: 0.12em;
-  padding-left: 15px; }
+  padding-left: 15px;
+  margin-left: 0px; }
+
+.nav-link {
+  margin-left: 1em; }
+
+button.navbar-toggler {
+  margin-right: 2em;
+  outline: none; }
 
 .dropdown-menu {
   background-color: #f05d29; }
@@ -36,8 +44,8 @@
   padding-left: 10px; }
 
 .csf-img-qs {
-  width: 350px;
-  height: 250px;
+  width: 100%;
+  height: auto;
   text-align: center;
   padding-left: 20px; }
 
@@ -46,7 +54,7 @@ h1, h3, h4 {
 
 .csf-texto {
   font-family: 'Raleway', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   text-align: justify; }
 
 .csf-texto-sm {
@@ -121,25 +129,30 @@ h1, h3, h4 {
 .csf-img-sector {
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  width: 400px;
-  height: 450px;
+  width: 100%;
+  height: auto;
   display: inline-block;
   position: relative; }
 
 .csf-img-finan {
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  width: 300px;
-  height: 300px;
+  width: 90%;
+  height: auto;
   display: inline-block;
   position: relative;
-  margin-left: 25px;
-  margin-top: 20px; }
+  margin-left: 15px;
+  margin-top: 30px; }
 
-.right {
-  width: 320px;
-  height: 220px;
-  margin-top: 60px; }
+.csf-img-finan2 {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  display: inline-block;
+  position: relative;
+  padding-left: 15px; }
 
 #hotelero {
   padding-top: 10px; }
@@ -227,10 +240,20 @@ button {
   font-size: 15px; }
 
 .proceso {
-  background-color: #F77C44; }
+  background-color: #FF9B6E; }
 
 .etapa1 {
   background-color: #FFC36E;
+  padding-top: 10px; }
+
+#hotelero, #salud {
+  background-color: #F7AD44;
+  margin-right: 6px;
+  padding: 15px; }
+
+#educacion, #gasolina {
+  background-color: #FFC36E;
+  margin-right: 6px;
   padding: 15px; }
 
 .etapa2 {

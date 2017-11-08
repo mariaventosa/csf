@@ -11,14 +11,15 @@
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Raleway" rel="stylesheet">
   <body>
     <div><!-- Barra de Menu con Logo -->
-      <nav class="row navbar navbar-expand-md fixed-top"><a href="index.html"><img class="img-responsive csf-logo" src="csf/logo.png"></a>
+      <nav class="row navbar navbar-expand-md navbar-dark fixed-top"><a href="index.html"><img class="img-responsive csf-logo" src="csf/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active dropdown"><a class="nav-link dropdown-toggle" href="#" id="financiamiento-dd" role="button" data-toggle="dropdown">Financiamiento<span class="sr-only" current></span></a>
               <ul class="dropdown-menu">
-                <li class="dropdown-item"> <a href="arrendamiento.html">Arrendamiento</a></li>
+                <li class="dropdown-item"><a href="arrendamiento.html">Arrendamiento</a></li>
                 <li class="dropdown-item"> <a href="factoraje.html">Factoraje</a></li>
-                <li class="dropdown-item"> <a href="credito.html">Crédito</a></li>
+                <li class="dropdown-item"><a href="credito.html">Crédito</a></li>
               </ul>
             </li>
             <li class="nav-item active"><a class="nav-link" href="servicios.html">Servicios<span class="sr-only" current></span></a></li>
@@ -37,7 +38,7 @@
     </div>
   </div>
   <div class="row csf-texto-finan">
-    <div class="col-4"> <img class="csf-img-finan" src="imagenes/retroescavadora.jpg"></div>
+    <div class="col-4" id="retroescavadora"> </div>
     <div class="col-8 csf-texto-finan">
       <p class="csf-texto">Mantén a tu empresa al día en equipamiento, sin afectar la Liquidez y el Capital de Trabajo con nuestro Arrendamiento. </p>
       <p class="csf-texto">Si de equipamiento para tu Empresa se trata, en Capital Solutions Fast. contamos con la solución adecuada con esquemas de Arrendamiento Puro y Financiero donde te otorgamos en renta el activo que necesitas.</p>
@@ -61,7 +62,7 @@
     </div>
     <hr>
   </div>
-  <div class="row csf-row-finan2">
+  <div class="row csf-row-finan2" id="credito-info">
     <div class="col-8">
       <h4>Ofrecemos:</h4>
       <ul class="csf-texto">
@@ -75,7 +76,7 @@
         <li>Tasa real 0.00%</li>
       </ul>
     </div>
-    <div class="col-4"><img class="csf-img-finan right" src="imagenes/tailor-measure.jpg"></div>
+    <div class="col-4" id="tailor-ms"></div>
   </div>
   <div class="row csf-row-finan2" id="arrendamiento-financiero">
     <div class="col-12">
@@ -129,3 +130,4 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="script.js"></script>
